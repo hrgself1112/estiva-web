@@ -13,7 +13,7 @@ import {
   ThreeCardLeftData,
   UpperThreeCardRightDatas,
   DownThreeCardRightDAta,
-} from "@/data/DigitalMarketing/sem-service";
+} from "@/data/sem-service";
 import { TestimonialsSEMData } from "@/data/TestimonialsDataa";
 import { SEMMetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

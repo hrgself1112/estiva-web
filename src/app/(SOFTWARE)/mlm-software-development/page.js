@@ -16,7 +16,7 @@ import {
   ProcessData,
   UpperDataa,
   UpperData,
-} from "@/data/Software/mlm-software-development";
+} from "@/data/mlm-software-development";
 import { TestimonialsMlmData } from "@/data/TestimonialsDataa";
 import { MMLMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

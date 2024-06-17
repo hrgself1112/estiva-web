@@ -8,7 +8,7 @@ import {
   CardsDataMenu,
   CategorieData,
   Service,
-} from "@/data/Software/software-development-services";
+} from "@/data/software-development-services";
 import { SOFTTabMeta } from "@/data/metaTags/metaData";
 
 const SOFTWARE = () => {

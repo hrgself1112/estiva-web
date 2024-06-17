@@ -18,7 +18,7 @@ import {
   MainBannerData,
   Faq,
   ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta
-} from "@/data/WebDevelopment/joomla-web-development-company";
+} from "@/data/joomla-web-development-company";
 import { JWDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

@@ -16,7 +16,7 @@ import {
   Faq,
   ProcessData,DownThreeCardRightDAta,
   ThreeCardLeftData,UpperData,
-} from "@/data/DigitalMarketing/pay-per-click-services";
+} from "@/data/pay-per-click-services";
 import { TestimonialsPPcData } from "@/data/TestimonialsDataa";
 import { PPCMetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

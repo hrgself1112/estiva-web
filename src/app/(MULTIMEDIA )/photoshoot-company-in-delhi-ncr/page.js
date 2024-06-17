@@ -13,7 +13,7 @@ import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser"
 
 
 
-import { HeroData,MainBannerData,Faq,DownThreeCardRightDAta,ThreeCardLeftData,UpperThreeCardRightDatas } from "@/data/Multimedia/photoshoot-company-in-delhi-ncr"
+import { HeroData,MainBannerData,Faq,DownThreeCardRightDAta,ThreeCardLeftData,UpperThreeCardRightDatas } from "@/data/photoshoot-company-in-delhi-ncr"
 import { TestimonialsPCData } from "@/data/TestimonialsDataa"
 import { CPVMeta } from "@/data/metaTags/metaData"
 import { SatisFiedData } from "@/data/satisfiedData"

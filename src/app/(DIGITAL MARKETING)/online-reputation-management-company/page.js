@@ -13,7 +13,7 @@ import {
   ThreeCardLeftData,
   UpperThreeCardRightDatas,
   DownThreeCardRightDAta,
-} from "@/data/DigitalMarketing/online-reputation-management-company";
+} from "@/data/online-reputation-management-company";
 import { TestimonialsORMData } from "@/data/TestimonialsDataa";
 import { ORMMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

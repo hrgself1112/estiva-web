@@ -12,7 +12,7 @@ import {
   Faq,
   ProcessData,
   UpperData,
-} from "@/data/Software/mobile-application-development-company";
+} from "@/data/mobile-application-development-company";
 import { TestimonialsMADData } from "@/data/TestimonialsDataa";
 import { MADMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
