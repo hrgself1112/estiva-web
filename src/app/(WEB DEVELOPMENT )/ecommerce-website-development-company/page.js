@@ -19,7 +19,7 @@ import {
   MainBannerData,
   Faq,
   ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta
-} from "@/data/WebDevelopment/ecommerce-website-development-companyData";
+} from "@/data/WebDevelopment/ecommerce-website-development-company";
 import { EWDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

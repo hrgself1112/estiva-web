@@ -11,7 +11,7 @@ import {
   CardsDataMenu,
   Service,
 
-} from "@/data/Multimedia/Multimedia-MenuData";
+} from "@/data/Multimedia/multimedia-presentation-services";
 import { MULTITAB } from "@/data/metaTags/metaData";
 
 const MULTIMEDIA = () => {

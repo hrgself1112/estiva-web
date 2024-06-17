@@ -18,7 +18,7 @@ import {
   MainBannerData,
   Faq,
   ProcessData,UpperData
-} from "@/data/Software/ios-app-development-companyData";
+} from "@/data/Software/ios-app-development-company";
 import { TestimonialsIOSData } from "@/data/TestimonialsDataa";
 import { IOSMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

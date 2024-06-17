@@ -14,7 +14,7 @@ import {
   UpperThreeCardRightDatas,
   ThreeCardLeftData,
   DownThreeCardRightDAta,
-} from "@/data/WebDevelopment/wordpress-website-development-companyData";
+} from "@/data/WebDevelopment/wordpress-website-development-company";
 import { WordPressMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

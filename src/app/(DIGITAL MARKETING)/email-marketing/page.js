@@ -15,7 +15,7 @@ import {
   UpperThreeCardRightDatas,
   ThreeCardLeftData,
   DownThreeCardRightDAta,
-} from "@/data/DigitalMarketing/email-marketingData";
+} from "@/data/DigitalMarketing/email-marketing";
 import { TestimonialsEmData } from "@/data/TestimonialsDataa";
 import { EMMetaData } from "@/data/metaTags/metaData";
 

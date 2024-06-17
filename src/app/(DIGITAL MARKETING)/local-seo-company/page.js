@@ -13,7 +13,7 @@ import {
   ThreeCardLeftData,
   UpperThreeCardRightDatas,
   DownThreeCardRightDAta,
-} from "@/data/DigitalMarketing/local-seo-companyData";
+} from "@/data/DigitalMarketing/local-seo-company";
 import { TestimonialsLScData } from "@/data/TestimonialsDataa";
 import { LSEOMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

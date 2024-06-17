@@ -18,7 +18,7 @@ import {
   MainBannerData,
   Faq,
   ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta
-} from "@/data/WebDevelopment/magento-website-development-companyData";
+} from "@/data/WebDevelopment/magento-website-development-company";
 import { MWDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

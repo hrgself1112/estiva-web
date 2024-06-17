@@ -6,7 +6,7 @@ import HomeFourGridCard from "@/components/HomefourGridCard/homeFourGrid";
 import Layout from "@/components/headerMAin/layout";
 import { generateMetaTags } from "@/components/metacomp/metamain";
 import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser";
-import { HeroPageData } from "@/data/DigitalMarketing/digital-menuData";
+import { HeroPageData } from "@/data/DigitalMarketing/digital-marketing-services";
 import { HomeMetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

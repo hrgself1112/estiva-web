@@ -23,7 +23,7 @@ import {
   ThreeCardLeftData,
   DownThreeCardRightDAta,
   CardsData,
-} from "@/data/DigitalMarketing/social-media-marketing-companyData";
+} from "@/data/DigitalMarketing/social-media-marketing-company";
 import { TestimonialsSMMData } from "@/data/TestimonialsDataa";
 import { SMMMetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

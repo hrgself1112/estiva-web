@@ -14,7 +14,7 @@ import {
   Faq,
   ProcessData,
   UpperData,
-} from "@/data/Designing/web-designing-companyData";
+} from "@/data/Designing/web-designing-company";
 import { TestimonialsWDCData } from "@/data/TestimonialsDataa";
 import { WDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

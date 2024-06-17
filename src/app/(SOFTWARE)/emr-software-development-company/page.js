@@ -18,7 +18,7 @@ import {
   ProcessUpperData,
   ProcessLowerData,
   ProcessDecData,
-} from "@/data/Software/emr-software-development-companyData";
+} from "@/data/Software/emr-software-development-company";
 import { TestimonialsEMRData } from "@/data/TestimonialsDataa";
 import { ERMMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

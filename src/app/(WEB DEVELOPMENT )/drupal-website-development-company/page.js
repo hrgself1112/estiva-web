@@ -16,7 +16,7 @@ import {
   Faq,
   ProcessData,
   UpperData,
-} from "@/data/WebDevelopment/drupal-website-development-companyData";
+} from "@/data/WebDevelopment/drupal-website-development-company";
 import { DWDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 

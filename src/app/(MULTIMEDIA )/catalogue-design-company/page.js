@@ -17,7 +17,7 @@ import {
   MainBannerData,
   Faq,
   UpperThreeCardRightDatas,ThreeCardLeftData,DownThreeCardRightDAta
-} from "@/data/Multimedia/catalogue-design-companyData";
+} from "@/data/Multimedia/catalogue-design-company";
 import { TestimonialsCDCData } from "@/data/TestimonialsDataa";
 import { CDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

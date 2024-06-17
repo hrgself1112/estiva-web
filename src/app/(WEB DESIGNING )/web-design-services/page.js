@@ -8,7 +8,7 @@ import {
   CategorieData,
   CardsDataMenu,
   Service,
-} from "@/data/Designing/Designing-menuData";
+} from "@/data/Designing/web-design-services";
 import { WebTab } from "@/data/metaTags/metaData";
 
 const DesigningMenu = () => {

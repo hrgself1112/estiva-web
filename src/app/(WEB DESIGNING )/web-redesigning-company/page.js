@@ -13,7 +13,7 @@ import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser"
 
 
 
-import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta} from "@/data/Designing/web-redesigning-companyData"
+import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta} from "@/data/Designing/web-redesigning-company"
 import { TestimonialsWRCData } from "@/data/TestimonialsDataa"
 import { WRMeta } from "@/data/metaTags/metaData"
 import { SatisFiedData } from "@/data/satisfiedData"

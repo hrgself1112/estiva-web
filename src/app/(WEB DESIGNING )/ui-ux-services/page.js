@@ -16,7 +16,7 @@ import {
   MainBannerData,
   Faq,
   ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta
-} from "@/data/Designing/ui-ux-serviceData";
+} from "@/data/Designing/ui-ux-services";
 import { TestimonialsUIUXData } from "@/data/TestimonialsDataa";
 import { UIUXMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

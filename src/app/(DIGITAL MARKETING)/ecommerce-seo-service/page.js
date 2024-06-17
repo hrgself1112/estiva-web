@@ -6,7 +6,7 @@ import { generateMetaTags } from "@/components/metacomp/metamain";
 import HeroSectionPages from "@/components/pagesComp/HeroSection/heroSection";
 import MainBannerPAges from "@/components/pagesComp/mainbanner";
 import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser";
-import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta } from "@/data/DigitalMarketing/ecommerce-seo-serviceData";
+import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta } from "@/data/DigitalMarketing/ecommerce-seo-service";
 import { TestimonialsESSData } from "@/data/TestimonialsDataa";
 import { ESSetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

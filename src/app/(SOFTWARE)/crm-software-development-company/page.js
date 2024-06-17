@@ -12,7 +12,7 @@ import {
   Faq,
   ProcessData,
   UpperData,
-} from "@/data/Software/crm-software-development-companyData";
+} from "@/data/Software/crm-software-development-company";
 import { TestimonialsCRMData } from "@/data/TestimonialsDataa";
 import { CRMMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

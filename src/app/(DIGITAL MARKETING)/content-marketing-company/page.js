@@ -13,7 +13,7 @@ import {
   ThreeCardLeftData,
   UpperThreeCardRightDatas,
   DownThreeCardRightDAta,
-} from "@/data/DigitalMarketing/content-marketing-companyData";
+} from "@/data/DigitalMarketing/content-marketing-company";
 import { TestimonialsCmData } from "@/data/TestimonialsDataa";
 import { CMMetaData } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

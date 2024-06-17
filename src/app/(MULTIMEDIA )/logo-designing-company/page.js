@@ -15,7 +15,7 @@ import {
   MainBannerData,
   Faq,
   UpperThreeCardRightDatas,ThreeCardLeftData,DownThreeCardRightDAta
-} from "@/data/Multimedia/logo-designing-companyData";
+} from "@/data/Multimedia/logo-designing-company";
 import { TestimonialsLDCData } from "@/data/TestimonialsDataa";
 import { LDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";

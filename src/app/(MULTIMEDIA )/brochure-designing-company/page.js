@@ -16,7 +16,7 @@ import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser"
 
 
 
-import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta} from "@/data/Multimedia/brochure-designing-companyData"
+import { HeroData,MainBannerData,Faq,ThreeCardLeftData,UpperThreeCardRightDatas,DownThreeCardRightDAta} from "@/data/Multimedia/brochure-designing-company"
 import { TestimonialsBDCData } from "@/data/TestimonialsDataa"
 import { BDMeta } from "@/data/metaTags/metaData"
 import { SatisFiedData } from "@/data/satisfiedData"

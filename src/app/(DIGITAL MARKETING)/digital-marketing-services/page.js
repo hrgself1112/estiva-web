@@ -3,7 +3,7 @@ import CategoriePages from "@/components/CategorieComps/categoriePages";
 import Layout from "@/components/headerMAin/layout";
 import { generateMetaTags } from "@/components/metacomp/metamain";
 
-import { CategorieData,CardsDataMenu,Service } from "@/data/DigitalMarketing/digital-menuData";
+import { CategorieData,CardsDataMenu,Service } from "@/data/DigitalMarketing/digital-marketing-services";
 import { DIGITabMEnuData } from "@/data/metaTags/metaData";
 
 const DigitalCategories = () => {

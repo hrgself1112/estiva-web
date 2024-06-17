@@ -18,7 +18,7 @@ import {
   MainBannerData,
   Faq,
   ProcessData,UpperData
-} from "@/data/WebDevelopment/web-portal-development-companyData";
+} from "@/data/WebDevelopment/web-portal-development-company";
 import { PWDMeta } from "@/data/metaTags/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 
