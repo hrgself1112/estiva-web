@@ -1,0 +1,80 @@
+
+.normalNavbar{
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 102;
+  background: 0 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  -webkit-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+  -webkit-animation: fadein 1.5s;
+  animation: fadein 1.5s;
+}
+
+.humbMenunormal{
+  color: white;
+}
+
+.sideNormal{
+  background: black;
+}
+
+.sidesticky{
+  background: white;
+}
+
+.humbMenunormalclose{
+  color: white;
+}
+
+.normalNavbar a{
+  color: white;
+}
+
+.meganormal{
+  background:radial-gradient( circle, rgba(0, 53, 85, 1) 0%, rgba(19, 29, 51, 1) 100% );
+}
+
+.megaMain{
+  background: white;
+}
+
+
+.stickyNavbar {
+    background-color: white;
+    animation: translateHeader 0.8s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+
+  }
+
+
+  @keyframes translateHeader {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .nav_color_white {
+    color: white;
+  }
+  .nav_color_black {
+    color: #152936;
+  }
+
+

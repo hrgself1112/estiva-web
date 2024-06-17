@@ -1,0 +1,32 @@
+.mainBox{
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+cursor: pointer;
+
+}
+
+.number{
+ /* font-size: 5rem; */
+ font-weight: 800;
+ color: transparent;
+ -webkit-text-stroke: 1px #ffffff;
+ transition: all .5s ease;
+}
+
+.mainBox:hover .number{
+    color: #dd4242;
+    -webkit-text-stroke: 1px #dd4242;
+    transition: all .5s ease;
+}
+.mainBox:hover .dec{
+    color: white;
+
+    transition: all .5s ease;
+}
+
+.dec{
+    color: #B5B5B5;
+    transition: all .5s ease;
+}
+

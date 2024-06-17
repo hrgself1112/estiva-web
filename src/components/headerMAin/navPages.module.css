@@ -1,0 +1,34 @@
+.stickyNavbar {
+  background-color: white;
+  animation: translateHeader 0.8s;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  /* / padding: 9px 0px ; / */
+}
+@keyframes translateHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sidePageNormal {
+  background: white;
+}
+
+.sidePagesticky {
+  background: white;
+}
+
+/* / estivanav / */
+.estiva_nav:hover span {
+  font-size: 55px;
+}

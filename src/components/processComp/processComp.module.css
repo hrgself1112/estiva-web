@@ -1,0 +1,124 @@
+.cards{
+    text-align: center;
+    padding: 55px 30px 50px !important;
+    -webkit-box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    -ms-box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #191919;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.cards:after{
+    width: 22px;
+    height: 22px;
+    bottom: 0;
+    top: auto;
+    content: '';
+    background-color: #191919;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-50%) rotate(130deg) skew(-10deg);
+    transition: all 0.3s ease;
+}
+
+.linemidle:after{
+    content: "";
+    position: absolute;
+    bottom: -51px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    display: block;
+    background-color:#343232 ;
+}
+
+
+.cardss{
+    text-align: center;
+    padding: 55px 30px 50px !important;
+    -webkit-box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    -ms-box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    box-shadow: 0 3px 50px rgba(0,0,0,0.04) !important;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #191919;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+.cardss:after{
+    width: 22px;
+    height: 22px;
+
+    top: 7px;
+    content: '';
+    background-color: #191919;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-50%) rotate(130deg) skew(-10deg);
+    transition: all 0.3s ease;
+}
+
+.circlebox:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    transition: all 0.4s ease;
+}
+
+.circlebox{
+    top: auto;
+    bottom: -58px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.circleboxTwo{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -56px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.circleboxTwo:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    transition: all 0.4s ease;
+}
+
+
+

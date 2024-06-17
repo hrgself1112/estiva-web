@@ -1,0 +1,12 @@
+.cardsMain{
+background-color: #FFFFFF;
+box-shadow: 29px 29px 59px 0px rgba(27.999999999999996, 137.00000000000003, 212, 0.1);
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+border-radius: 52px 10px 52px 10px;
+cursor: pointer;
+
+}
+
+.cardsMain:hover{
+    border-radius: 10px 52px 10px 52px;
+}
