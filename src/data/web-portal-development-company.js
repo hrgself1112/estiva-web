@@ -117,3 +117,34 @@ alt:'Responsive Design'
 
 
 ]
+
+export const metadata = [
+  {
+    titles: "Custom Web Portal Development Company | EstivaSoftech",
+    description:
+      "Design and develop custom web portals. EstivaSoftech is the top web portal development company offering top web portal development services for your brand",
+    canonical: "https://www.estivasoftech.com/web-portal-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+
+  {
+      dec:"Excellent work you guys. Good job, our team is happy with the web portal service. Great job. ",
+      name:"Atharva Pokhriyal",
+      role:"",
+  },
+  {
+      dec:"Most trusted web portal development agency in India. Very supportive team support.",
+      name:"Puja Parmar",
+      role:"",
+  },
+  {
+      dec:"I can't tell you how much we appreciate Estivasoftech for their web portal development services. We know nothing about website building and designing. Their team helped me a lot at every step. You are fo sure the best web development company in Delhi!",
+      name:"Akshay Singh",
+      role:"",
+  },
+
+]

@@ -9,7 +9,7 @@ const Mlminfo = ({items}) => {
 <section className="py-16 lg:px-20 max-sm:px-5 bg-[url('/bg/estiva-mlm-bg-comps.webp')] bg-cover bg-no-repeat ">
     <div className="container mx-auto">
     <h2 className="mb-3">
-Our MLM Plans
+    Our MLM Plans
     </h2>
     <h4>Our MLM Software boasts of having various MLM Business compensation plans that skyrocket the growth of your network marketing business.</h4>
 <div className=" grid grid-cols-3 gap-5 mt-10 max-sm:grid-cols-1 max-lg:grid-cols-2  ">

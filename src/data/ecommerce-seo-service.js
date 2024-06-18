@@ -107,3 +107,35 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+export const metadata = [
+  {
+    titles:
+      "EstivaSoftech | Best eCommerce SEO Agency in India | eCommerce SEO Services",
+    description:
+      "Expand your potential customer network with the best ecommerce SEO agency in Delhi NCR, India. Get top ecommerce SEO services and get noticed by your customers.",
+    canonical: "https://www.estivasoftech.com/ecommerce-seo-service",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+  {
+      dec:"Exceptional ecommerce SEO service! EstivaSoftech Company in Noida has been great in building and maintaining SEO our coaching center's online visibility and ranking.  ",
+      name:"Kamal Kishan ",
+      role:"",
+  },
+  {
+      dec:"Responsive team. Good workflow. Highly recommended for anyone seeking top-notch ecommerce SEO solutions!",
+      name:"Anusha Mehra ",
+      role:"",
+  },
+  {
+      dec:"I had been searching for an SEO company to help me with my pet business website, and came across Estivasoftech in Noida. They understood what I needed. After talking to them, I felt relieved and confident that my website and SEO ranking would be taken care of. ",
+      name:"Josephy Kevin",
+      role:"",
+  },
+
+]
+

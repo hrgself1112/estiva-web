@@ -119,3 +119,34 @@ alt:'Seamless Integration'
 
 
 ]
+
+export const TestimonialsData=[
+  {
+      dec:"Our requirements for our app was quite complex, which is why i was looking for a company that could match our needs. Thankfully, it didn't take me a lot. I came across estivasoftech. I’m impressed with the fact that they patiently listened our needs, and kept engaging ideas for our app to be unique. Thanks guys.",
+      name:"Scott Janes",
+      role:"",
+  },
+  {
+      dec:"Timely delivery and quality results under reasonable price plans. ",
+      name:"Raju Mehto",
+      role:"",
+  },
+  {
+      dec:"It is surely the best app development company in India. Estivasoftech successfully helped me get what I thought before creation of my app. Hats off to their strategic approach and knowledge.",
+      name:"Kishore Kumar",
+      role:"",
+  },
+]
+
+
+export const metadata = [
+  {
+    titles:
+      "Hybrid App Development Company in Delhi | Cross-Platform Excellence",
+    description:
+      "Explore the best native mobile app development with EstivaSoftech, a leading hybrid app development company in Delhi. Craft versatile custom apps with us.",
+    canonical:
+      "https://www.estivasoftech.com/hybrid-mobile-app-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

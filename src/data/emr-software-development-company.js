@@ -154,3 +154,39 @@ export const ProcessDecData=[
 
 
 ]
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"Their ehr emr software solutions have consistently exceeded my company's expectations. I had to state that we are 100% satisfied.",
+      name:"Kevin Tran",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech has a wealth of diverse technical knowledge. They expertly tackle various projects with precision. Thanks for knowing our specific requirement and delivering us on time.",
+      name:"Anwar Singhal ",
+      role:"",
+  },
+  {
+      dec:"The best and affordable ehr emr solutions in India. I am highly satisfied with your team support, and overall work. ",
+      name:"Dr. Uma Dwivedi ",
+      role:"",
+  },
+  {
+      dec:"Expert team with in depth knowledge in our industry. Thanks for creating a top software solution for our lab. Keep it up",
+      name:"Pankaj Pant",
+      role:"",
+  },
+
+]
+
+export const metadata = [
+  {
+    titles: "Custom Healthcare Software Development Company | EstivaSoftech",
+    description:
+      "Level up patient care & transform healthcare delivery with the best custom healthcare software development company in India. Let's bring home innovation.",
+    canonical: "https://www.estivasoftech.com/emr-software-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

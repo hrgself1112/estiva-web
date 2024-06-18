@@ -70,3 +70,14 @@ export const Service =[
 
 
 
+
+    export const metadata = [
+        {
+          titles: "Web Development Services in India | Experience Digital Excellence",
+          description:
+            "Transform your vision into reality with Estivasoftech's best web development services. We provide WordPress, Joomla, Magento, eCommerce, Drupal & whatnot.",
+          canonical: "https://www.estivasoftech.com/web-development-services",
+          imagepath: "/bg/og-image.png",
+        },
+      ];
+      

@@ -108,3 +108,34 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+
+export const metadata = [
+  {
+    titles: "EstivaSoftech- Top Leading Brochure Design Company in Delhi NCR",
+    description:
+      "Power Up your branding strategy with the leading brochure design agency in India. We provide customized brochures that effectively convey your brand story.",
+    canonical: "https://www.estivasoftech.com/brochure-designing-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+  {
+      dec:"I have been with estivasoftech since last year, and I'm very much impressed with their design services. I hired them for brochure design services for my second business after the first project. A must recommend design team. ",
+      name:"Sameer Saifi",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech is the best brochure design company in India. They design a very eye-catching brochure for my tour travel business. Highly appreciated.",
+      name:"Arun Bhati",
+      role:"",
+  },
+  {
+      dec:"Top notch team, excellent support. It is the best multimedia agency in Delhi NCR. ",
+      name:"Vinod Kumar",
+      role:"",
+  },
+]

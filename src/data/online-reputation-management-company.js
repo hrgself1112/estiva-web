@@ -109,3 +109,36 @@ export const ThreeCardLeftData=[
 
 
   ]
+
+  export const metadata = [
+    {
+      titles:
+        "Discover the potential of your brand by targeting the Best PPC company in India. EstivaSoftech elevates traffic, website sales, & scale-up ROI.",
+      description:
+        "Discover the potential of your brand by targeting the Best PPC company in India. EstivaSoftech elevates traffic, website sales, & scale-up ROI.",
+      canonical:
+        "https://www.estivasoftech.com/online-reputation-management-company",
+      imagepath: "/bg/og-image.png",
+    },
+  ];
+
+
+  export const TestimonialsData=[
+    {
+        dec:"We’re very satisfied with the results. Estivasoftech has improved our online profile and reputation with good strategies. We’ve gotten an increase in users of 14% in two months. Thanks estivasoftech.  ",
+        name:"Nandita Kumari",
+        role:"",
+    },
+    {
+        dec:"They provide the best reputation building services in India. It's trustworthy, highly recommended from my end!",
+        name:"Faruqi ",
+        role:"",
+    },
+    {
+        dec:"Estivasoftech deeply understood my business and its needs. And thankfully I received good online results for my company's reputation. They have been significantly helping my team with good ideas even after the project.  ",
+        name:"Beena Mehta",
+        role:"",
+    },
+
+
+]

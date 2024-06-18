@@ -119,13 +119,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <NextTopLoader />
         {children}
-        <FormMian />
-        <FooterUppernew />
-        <ServiceSlider />
-
-        <FooterMain />
-
-        <FooterBottom />
+ 
       </body>
       <GoogleTagManager gtmId="GTM-W3QZ559" />
     </html>

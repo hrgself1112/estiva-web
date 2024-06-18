@@ -95,3 +95,18 @@ export const Service =[
   ]
   
 
+
+
+
+  export const metadata = [
+    {
+      titles: "EstivaSoftech: #1 Best Software Development Company in India",
+      description:
+        "EstivaSoftech is the leading software development company in India offering mobile apps, EHR/EMR, hybrid, CRM, MLM software development solutions & whatnot",
+      canonical: "https://www.estivasoftech.com/solutions/software-development-services",
+      imagepath: "/bg/og-image.png",
+    },
+  ];
+  
+  
+  

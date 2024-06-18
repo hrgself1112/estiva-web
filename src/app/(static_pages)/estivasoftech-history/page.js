@@ -1,42 +1,49 @@
-import Testimonial from "@/components/TestimonialsNew/testomain";
-import { SimpleAccordian } from "@/components/accordian/smipleAccordian";
 import EstivaBenefits from "@/components/estivabenefits/benefits";
+import Feature from "@/components/featureComp/feature";
 import Layout from "@/components/headerMAin/layout";
+
 import { generateMetaTags } from "@/components/metacomp/metamain";
+import OurVision from "@/components/ourVision/ourVisionComp";
 import HeroSectionPages from "@/components/pagesComp/HeroSection/heroSection";
 import MainBannerPAges from "@/components/pagesComp/mainbanner";
+
 import SatisfiedNewuser from "@/components/satisfiedusernew/satisfiedNewuser";
+
 import {
-  HeroData,
   MainBannerData,
-  Faq,
+  UpperDAtaCard,
+  MidleData,
+  CardsData,
   ThreeCardLeftData,
   UpperThreeCardRightDatas,
   DownThreeCardRightDAta,
-} from "@/data/local-seo-company";
-import { TestimonialsLScData } from "@/data/TestimonialsDataa";
-import { LSEOMeta } from "@/data/metaTags/metaData";
+  HeroData,
+} from "@/data/aboutData";
+import { ABoutMetaData } from "@/data/metaData";
 import { SatisFiedData } from "@/data/satisfiedData";
 
-const LSC = () => {
+const ABout = () => {
   return (
     <>
       <Layout>
-        {generateMetaTags(LSEOMeta)}
+        {generateMetaTags(ABoutMetaData)}
         <HeroSectionPages items={HeroData} />
-
         <SatisfiedNewuser items={SatisFiedData} />
         <MainBannerPAges items={MainBannerData} />
+        <Feature
+          items={UpperDAtaCard}
+          Data={MidleData}
+          lowerCards={CardsData}
+        />
+        <OurVision />
         <EstivaBenefits
           items={ThreeCardLeftData}
           heads={UpperThreeCardRightDatas}
           down={DownThreeCardRightDAta}
         />
-        <Testimonial items={TestimonialsLScData} />
-        <SimpleAccordian Faq={Faq} />
       </Layout>
     </>
   );
 };
 
-export default LSC;
+export default ABout;

@@ -150,3 +150,32 @@ export const Faq = [
       "Yes, we provide comprehensive post-launch support and maintenance services like apps that need updates, improvements, ongoing support, and more. We are the leading Android app development company Bangalore, Delhi, and across India.",
   },
 ];
+
+
+export const TestimonialsData=[
+  {
+      dec:"Estivasoftech delivered outstanding results with our app development project. Excellent team support and timely delivery impressed me a lot. Thanks estivasoftech team.",
+      name:"Shekhar C. Joshi",
+      role:"",
+  },
+  {
+      dec:"Overall, the best mobile app development company in India. I am highly satisfied with the app they made for my food brand. Its highly intuitive and feature-rich app. 100% satisfied. ",
+      name:"Geeta Dwivedi",
+      role:"",
+  },
+  {
+      dec:"Thanks estivasoftech for designing a beautiful app as I told you. Will seek out you for  future projects. ",
+      name:"Vivek Bora",
+      role:"",
+  },
+]
+
+export const metadata = [
+  {
+    titles: "EstivaSoftech | #1 Best Android App Development Agency in India",
+    description:
+      "Want to get an engaging app for your brand? EstivaSoftech is the best Android App Development Agency in Delhi NCR offering top mobile app development services.",
+    canonical: "https://www.estivasoftech.com/android-app-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

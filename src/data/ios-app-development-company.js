@@ -117,3 +117,40 @@ export const HeroData=[
 
 
 ]
+
+
+
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"I had the pleasure of partnering with estivasoftech. They built me a great iOS app as I suggested to them. Huge appreciation for their efforts. Keep it up guys.  ",
+      name:"Adele Bayn",
+      role:"",
+  },
+
+  {
+      dec:"EstivaSoftech is the best mobile application development company in India for any kind of iOS Mobile Application Development services. I am very happy with their services.",
+      name:"Suryash Batra",
+      role:"",
+  },
+  {
+      dec:"It has been 7 months to our iOS project, and till now, I am having good reviews about my iOS app from my customers, and even friends. Great job you guys. ",
+      name:"Aparna Singh",
+      role:"",
+  },
+
+]
+
+
+
+export const metadata = [
+  {
+    titles: "Custom iOS App Development in India | Target Potential Audience",
+    description:
+      "Create user-centric & high-performance iOS apps that drive engagement on Apple's platform. Hire an Expert from the top custom iOS App development in India.",
+    canonical: "https://www.estivasoftech.com/ios-app-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

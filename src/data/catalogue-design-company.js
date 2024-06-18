@@ -113,3 +113,32 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+export const metadata = [
+  {
+    titles: "#1 Catalogue Designs for Products & Service | EstivaSoftech",
+    description:
+      "Share your brand story through impactful catalogue design by EstivaSoftech. We create visually stunning & user-friendly catalogs for good product branding.",
+    canonical: "https://www.estivasoftech.com/catalogue-design-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+  {
+      dec:"Great design team. They did a good job. The best catalogue design services in India.",
+      name:"Sural Sharma",
+      role:"",
+  },
+  {
+      dec:"I wanted a simple yet professional catalogue for my life science and research supply company. I came across estivasoftech. Eventually they helped me land on a very beautiful and professional product catalogue. I'm very happy with their service. ",
+      name:"Vinny Reddy",
+      role:"",
+  },
+  {
+      dec:"Thanks for designing such a beautiful catalogue for my jewellery and accessories product. Great service.",
+      name:"Pratik Thakker ",
+      role:"",
+  },
+]

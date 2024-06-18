@@ -107,3 +107,33 @@ export const Faq = [
       "The timeline for results can vary depending on factors such as your industry, competition, and the current state of your online presence. While some improvements may be noticed in a few weeks, significant and sustainable growth usually takes a few months. Local SEO is an ongoing process, and consistent efforts are essential for long-term success. ",
   },
 ];
+
+export const metadata = [
+  {
+    titles:
+      "Best Local SEO Services in India | Let Your Potential Audience Find You",
+    description:
+      "Expand your brand's local reach & generate quality leads with EstivaSoftech's expert local SEO services in India. Grow on GMB & let your people find you.",
+    canonical: "https://www.estivasoftech.com/local-seo-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+export const TestimonialsData=[
+  {
+      dec:"I had the pleasure of working with Estivasoftech, and I must say they are an exceptional local SEO company in Noida. Their team is highly knowledgeable, professional, and dedicated to delivering results. And I have genuine clients nearby. Thanks, Estivasoftech.  ",
+      name:"Prerna Vats",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech is an outstanding local SEO company in India. Their expertise and dedication have greatly improved our local presence. Must suggest a place for sure. ",
+      name:"Sagar Dogra",
+      role:"",
+  },
+  {
+      dec:"I really liked the way the team stood upon their words and got me the desired results. With their strategic approach, we have seen significant growth in organic traffic and local clients. Thank you Estivasoftech. ",
+      name:"Tushar Pant",
+      role:"",
+  },
+
+]

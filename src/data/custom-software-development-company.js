@@ -107,3 +107,35 @@ export const Faq = [
       "Custom software development offers a long-term cost advantage if you are thinking to stand for the long run. We offer cost-effective custom software solutions ensuring top-notch quality.",
   },
 ];
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"It is a reliable and trustworthy custom software development company in India. Highly satisfied with their services. They listened to us and delivered good results too. Thanks a lot.  ",
+      name:"Tanuja Bhatt",
+      role:"",
+  },
+  {
+      dec:"The working environment is excellent with encouraging team spirit. A must recommend place for customer software dev solutions at good prices. ",
+      name:"Karthik Goswami ",
+      role:"",
+  },
+  {
+      dec:"We have been associated with Estivasoftech for 2 years now and we are really really happy with the results.  They accepted our ideas and also added extra efforts to get me a full stack software as my brand required.  ",
+      name:"Shikha Jain",
+      role:"",
+  },
+]
+
+
+export const metadata = [
+  {
+    titles: "Top Custom Software Development Agency | Unlock Possibilities",
+    description:
+      "We create tailored software applications that cater to your specific needs, enabling enhanced efficiency, innovation, and growth for your organization.",
+    canonical:
+      "https://www.estivasoftech.com/custom-software-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

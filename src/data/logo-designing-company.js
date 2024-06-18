@@ -108,3 +108,35 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+export const TestimonialsData=[
+
+  {
+      dec:"I really enjoyed my experience with Estivasoftech. I got a great and professional logo designer team for this project. More happy as they understood my ideas and brought up a good combo of my idea and their expertise. Great guys. ",
+      name:"Bhuvan Rai",
+      role:"",
+  },
+  {
+      dec:"For the past 4 years, I have been hiring them for my logo, brochure and seo related services. Highly recommended place for someone looking for good results under affordable price. ",
+      name:"P. Kavitha",
+      role:"",
+  },
+  {
+      dec:"Great value for money. The communication was excellent and the team always produced something that the company actually needed instead of what they think they wanted. The best logo design company in India.",
+      name:"Parveen Dhillon ",
+      role:"",
+  },
+]
+
+
+
+export const metadata = [
+  {
+    titles: "EstivaSoftech's Top Logo Design Service | Crafting Brand Identity",
+    description:
+      "Stand out from the crowd with a unique and impactful logo designed by EstivaSoftech. We create a logo that easily represents your vision.",
+    canonical: "https://www.estivasoftech.com/logo-designing-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

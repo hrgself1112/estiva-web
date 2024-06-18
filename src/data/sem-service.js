@@ -1,10 +1,10 @@
-export const HeroData=[
-    {
-        heading:"Skyrocket Your Visibility with a Powerful Search Engine Marketing Agency ",
-        dec:" Step into the world of cutting-edge Search Engine Marketing (SEM) service and unlock new horizons of success for your business. We embrace the extraordinary with our SEM strategy, and let your brand's story unfold in the digital cosmos.",
-        imgpath:"/DigitalMarketing/sem-service/sem-serviceHerosection.webp",
-    }
-  ]
+    export const HeroData=[
+        {
+            heading:"Skyrocket Your Visibility with a Powerful Search Engine Marketing Agency ",
+            dec:" Step into the world of cutting-edge Search Engine Marketing (SEM) service and unlock new horizons of success for your business. We embrace the extraordinary with our SEM strategy, and let your brand's story unfold in the digital cosmos.",
+            imgpath:"/DigitalMarketing/sem-service/sem-serviceHerosection.webp",
+        }
+      ]
 
     export const MainBannerData=[
       {
@@ -99,7 +99,39 @@ export const ThreeCardLeftData=[
     question:"Can SEM work alongside my existing marketing efforts, such as SEO and social media?",
     answer:"Absolutely! SEM seamlessly integrates with other digital marketing strategies that you can easily run alongside. EstivaSoftech is a top-notch Search engine optimization company India that focuses on aligning different digital marketing services.",
     },
-
-
-
 ]
+
+  export const TestimonialsData=[
+    {
+        dec:"EstivaSoftech is a great place if you are looking for search engine marketing services. For the last 5 years, I have been taking services with them and they are consistent with it. It's the most-recommended place I would say. ",
+        name:"Kishan Mehta",
+        role:"",
+    },
+    {
+        dec:"They are very helpful in positioning my online presence as desired. Very professional and very responsive. Thank you estivasoftech. ",
+        name:"Rohit Kumar",
+        role:"",
+    },
+    {
+        dec:"I am extremely impressed with EstivaSoftech’s SEM service as they not only worked on my site to get ranking as well they also fixed minor issues of my site. This was very helpful. Heartily Thanks to the complete team.",
+        name:"K. Suman",
+        role:"",
+    },
+    {
+        dec:"I am happy to work with the estivasoftech team because they give the time for our understanding and give suggestions on how to improve my business. Thanks for growing my business and helping me beyond this SEM service. You are the best search engine marketing company in India. Well Done Guys!!",
+        name:"Prakash Samarth",
+        role:"",
+    },
+  ]
+
+
+  export const metadata = [
+    {
+      titles:
+        "EstivaSoftech | Top Leading SEM Agency in Delhi NCR | SEM Services",
+      description:
+        "Experience the magic of SEM with the top Search Engine Marketing Agency in India. Unthread customized SEM, & laser-targeted ads to drive remarkable ROI.",
+      canonical: "https://www.estivasoftech.com/sem-service",
+      imagepath: "/bg/og-image.png",
+    },
+  ];

@@ -116,3 +116,40 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+export const TestimonialsData =[
+
+
+  {
+    dec:"I am very much satisfied with the estivasoftech. They helped us in developing our web portal. Thanks a lot to the team.",
+    name:"Waqir Khan",
+    role:"",
+},
+
+{
+    dec:"Exceptional web developing services! Estivasoftech is for sure the best web development agency in Noida. Their team's creativity and expertise is remarkable. Cheers to the team guys. ",
+    name:"Manju Sharma",
+    role:"",
+},
+
+{
+    dec:"Really amazing company Estivasoftech. You provided the best website development services in Noida . Highly recommended place for someone looking for web development services. Also, they timely delivered my site.",
+    name:"Amanpreet Singh",
+    role:"",
+},
+
+]
+
+
+
+
+export const metadata = [
+  {
+    titles: "Best Joomla Web Development Company in India | EstivaSoftech",
+    description:
+      "Kickstart the power of Joomla website development services with EstivaSoftech. We are a Joomla Web Development Company offering high-performance sites.",
+    canonical: "https://www.estivasoftech.com/joomla-web-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

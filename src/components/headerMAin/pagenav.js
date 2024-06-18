@@ -3,32 +3,26 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./navPages.module.css";
 import { LuArrowUpRightFromCircle, LuPhoneCall } from "react-icons/lu";
-
 import React, { useState, useEffect } from "react";
 import { mobile } from "./utilities/mobile";
-
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import { IoIosArrowDown } from "react-icons/io";
+
+
 const PageNav = () => {
   const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      // Adjust the threshold as needed
+      const scrollPosition = window.scrollY; 
       setIsSticky(scrollPosition > 100);
-    };
-
-    // Attach the scroll event listener
-    window.addEventListener("scroll", handleScroll);
-
-    // Remove the event listener when the component is unmounted
+    }; 
+    window.addEventListener("scroll", handleScroll); 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
-    <>
-      {/* {/ <!-- ========== HEADER ========== --> /} */}
+    <> 
       <section
         className={`relative z-50 lg:px-20 md:px-12 max-sm:px-6 ${
           isSticky ? styles.stickyNavbar : styles.normalNavbar
@@ -87,7 +81,7 @@ const PageNav = () => {
                             alt="digital marketing"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/digital-marketing-services ">
+                          <Link href="/solutions/digital-marketing-services ">
                             <span>Digital Marketing</span>
                             <p className="text-sm ">
                               Build strategic campaigns that speak louder than
@@ -105,7 +99,7 @@ const PageNav = () => {
                             alt="web development"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/web-development-services">
+                          <Link href="/solutions/web-development-services">
                             <span>Web Development</span>
                             <p className="text-sm ">
                               Integrate lasting online experience with
@@ -123,7 +117,7 @@ const PageNav = () => {
                             alt="ui ux desing"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/web-design-services">
+                          <Link href="/solutions/web-design-services">
                             <span>Web & UI/UX</span>
                             <p className="text-sm ">
                               Turn ideas into visually stunning realities– where
@@ -143,7 +137,7 @@ const PageNav = () => {
                             alt="software development"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/software-development-services">
+                          <Link href="/solutions/software-development-services">
                             <span>Software Development</span>
                             <p className="text-sm ">
                               Turn complexity into responsive solutions with
@@ -161,7 +155,7 @@ const PageNav = () => {
                             alt="multimedia"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/multimedia-presentation-services">
+                          <Link href="/solutions/multimedia-presentation-services">
                             <span>Multi-Media</span>
                             <p className="text-sm ">
                               Bringing stories to life with a symphony of

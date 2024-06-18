@@ -115,3 +115,40 @@ export const ThreeCardLeftData=[
 
 ]
 
+
+export const TestimonialsData=[
+  {
+      dec:"I got my website made through them, and also asked them to maintain it annually.I found the entire team to be thorough professionals, specially Mr. Rupesh Kumar, for his active dedication and support throughout the project. Wishing them all the best. ",
+      name:"Abijeet Arya ",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech helped me got a beautiful product website done. I am very happy with their ecommerce web development service. They also took care of the seo thing, which helped me a lot.",
+      name:"Dinesh Singh",
+      role:"",
+  },
+  {
+      dec:"I have a jewellery and accessories business, for which i was looking for someone to get me a good user centric portal. I came through estivasoftech. All i want to mention is thank you to the team.",
+      name:"Manindar Rajput",
+      role:"",
+  },
+  {
+      dec:"I wanted to extend my heartfelt thanks to your company, estivasoftech, the best web development company in India, for crafting such an outstanding ecommerce site for me.",
+      name:"Sakshi Chauhan",
+      role:"",
+  },
+
+]
+
+
+export const metadata = [
+  {
+    titles:
+      "Ecommerce Website Development Company in India | Future Ready Shop",
+    description:
+      "Stunning design, seamless function, & superior shopping. We're an eCommerce website development company in India offering user-targeted eCommerce solutions",
+    canonical:
+      "https://www.estivasoftech.com/ecommerce-website-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

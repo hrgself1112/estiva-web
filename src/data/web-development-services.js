@@ -83,3 +83,15 @@ export const Service =[
     ]
     
   
+
+    export const metadata = [
+        {
+          titles: "#1 Web Design & Development Services in India | EstivaSoftech",
+          description:
+            "Unthread the power of design and development and stand out your brand with the best website design solutions by EstivaSoftech.",
+          canonical: "https://www.estivasoftech.com/web-design-services",
+          imagepath: "/bg/og-image.png",
+        },
+      ];
+      
+      

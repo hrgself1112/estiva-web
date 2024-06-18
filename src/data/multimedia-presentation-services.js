@@ -75,3 +75,14 @@ export const Service =[
     ]
     
   
+
+    export const metadata = [
+        {
+          titles: "EstivaSoftech | Best Multimedia Presentation Service in Delhi NCR",
+          description:
+            "Capture your audience's attention and deliver your message effectively with EstivaSoftech's multimedia presentation solutions in Delhi NCR.",
+          canonical: "https://www.estivasoftech.com/multimedia-presentation-services",
+          imagepath: "/bg/og-image.png",
+        },
+      ];
+      

@@ -110,3 +110,35 @@ export const DownThreeCardRightDAta=[
 
 
 ]
+
+
+export const TestimonialsData=[
+  {
+      dec:"Their design team was very cool. They understood my requirements and stood upon my expectations. They provided me with a very good web performance with engaging designs. All thanks to Estivasoftech. ",
+      name:"Keshav Sharma",
+      role:"",
+  },
+  {
+      dec:"Absolutely love working with Estivasoftech. It’s been 5 months now and the experience has been great. Great team and friendly environment. They are one of the best ui ux design agency in India. Do consider them. ",
+      name:"Sanju Pandey",
+      role:"",
+  },
+  {
+      dec:"Great place to Supego for design queries. They have a friendly environment and good coordination with my team also. Must recommend ui ux service. ",
+      name:"Ranjita ",
+      role:"",
+  },
+
+]
+
+
+
+export const metadata = [
+  {
+    titles: "India's Best UI/UX Design & Consulting Services | EstivaSoftech",
+    description:
+      "Enhance the result-oriented experience with EstivaSoftech's UI/UX designing service. Bring home the best UI/UX solutions & convert viewers to customers.",
+    canonical: "https://www.estivasoftech.com/ui-ux-services",
+    imagepath: "/bg/og-image.png",
+  },
+];

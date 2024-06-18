@@ -7,26 +7,26 @@ import React, { useState, useEffect } from "react";
 import { mobile } from "./utilities/mobile";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import { IoIosArrowDown } from "react-icons/io";
+
 const HOmeNav = () => {
   const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-          setIsSticky(scrollPosition > 100);
+      setIsSticky(scrollPosition > 100);
     };
 
-      window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-      return () => {
+    return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
-    <> 
+    <>
       <section
-        className={`relative z-50 lg:px-20 md:px-12 max-sm:px-6 py-1 ${
-          isSticky ? styles.stickyNavbar : styles.normalNavbar
-        }`}
+        className={`relative z-50 lg:px-20 md:px-12 max-sm:px-6 py-1 ${isSticky ? styles.stickyNavbar : styles.normalNavbar
+          }`}
       >
         <header className={`container mx-auto  estiva-nav headerbg`}>
           <nav className="flex flex-wrap">
@@ -35,16 +35,7 @@ const HOmeNav = () => {
               id="brand"
             >
               <Link href="/">
-                <Image
-                  className="max-w-[13rem]"
-                  priority
-                  src={
-                    isSticky ? "/estiva.png" : "/estivasoftech-logo-white.png"
-                  }
-                  alt="EstivaSoftech Logo"
-                  width={250}
-                  height={200}
-                />
+                <Image className="max-w-[13rem]" priority src={isSticky ? "/estiva.png" : "/estivasoftech-logo-white.png"} alt="EstivaSoftech Logo" width={250} height={200} />
               </Link>
             </div>
             <ul className="flex w-[50%] justify-end font-semibold text-base py-6 max-lg:hidden">
@@ -66,17 +57,15 @@ const HOmeNav = () => {
               </li>
               <li className="nav-item">
                 <span
-                  className={`${
-                    isSticky ? styles.nav_color_black : styles.nav_color_white
-                  } py-7  px-4 uppercase   group cursor-pointer`}
+                  className={`${isSticky ? styles.nav_color_black : styles.nav_color_white
+                    } py-7  px-4 uppercase   group cursor-pointer`}
                 >
                   <span>Solutions</span>
                 </span>
 
                 <div
-                  className={`estiva_submenu absolute w-full ${
-                    isSticky ? styles.megaMain : styles.meganormal
-                  } z-20 left-0 lg:px-20 md:px-12 max-sm:px-6 top-16`}
+                  className={`estiva_submenu absolute w-full ${isSticky ? styles.megaMain : styles.meganormal
+                    } z-20 left-0 lg:px-20 md:px-12 max-sm:px-6 top-16`}
                 >
                   <div className="container mx-auto flex flex-wrap">
                     <ul className="gap-6 py-9 w-[75%] pr-[2%] flex">
@@ -91,7 +80,7 @@ const HOmeNav = () => {
                             alt="digital marketing"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/digital-marketing-services">
+                          <Link href="/solutions/digital-marketing-services">
                             <span>Digital Marketing</span>
                             <p className="text-sm ">
                               Build strategic campaigns that speak louder than
@@ -109,7 +98,7 @@ const HOmeNav = () => {
                             alt="web development"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/web-development-services">
+                          <Link href="/solutions/web-development-services">
                             <span>Web Development</span>
                             <p className="text-sm ">
                               Integrate lasting online experience with
@@ -127,7 +116,7 @@ const HOmeNav = () => {
                             alt="ui ux desing"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/web-design-services">
+                          <Link href="/solutions/web-design-services">
                             <span>Web & UI/UX</span>
                             <p className="text-sm ">
                               Turn ideas into visually stunning realities– where
@@ -147,7 +136,7 @@ const HOmeNav = () => {
                             alt="software development"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/software-development-services">
+                          <Link href="/solutions/software-development-services">
                             <span>Software Development</span>
                             <p className="text-sm ">
                               Turn complexity into responsive solutions with
@@ -165,7 +154,7 @@ const HOmeNav = () => {
                             alt="multimedia"
                             className="group-hover:scale-105 transition ease-in-out  duration-300"
                           />
-                          <Link href="/multimedia-presentation-services">
+                          <Link href="/solutions/multimedia-presentation-services">
                             <span>Multi-Media</span>
                             <p className="text-sm ">
                               Bringing stories to life with a symphony of
@@ -234,7 +223,7 @@ const HOmeNav = () => {
 
               <span className="font-normal text-sm">
                 <Link href="tel:+919990140888">
-                  {" "}
+                   
                   Call & chat us today! <br />
                   <span className="font-bold text-base">+91-9990 140 888</span>
                 </Link>
@@ -244,25 +233,23 @@ const HOmeNav = () => {
             <div className="mobile-opne hidden max-lg:block max-lg:w-[10%] items-center max-sm:pt-1 min-lg:pt-2 max-sm:w-[10%] max-sm:justify-end mt-3">
               <RxHamburgerMenu
                 onClick={mobile}
-                className={`estiva_close active ${
-                  isSticky ? styles.humbMenuSticky : styles.humbMenunormal
-                } `}
+                className={`estiva_close active ${isSticky ? styles.humbMenuSticky : styles.humbMenunormal
+                  } `}
                 id="estiva_burgerid"
               />
               <RxCross1
                 onClick={mobile}
                 id="estiva_burgeridw"
-                className={`estiva_close ${
-                  isSticky
+                className={`estiva_close ${isSticky
                     ? styles.humbMenuStickyclose
                     : styles.humbMenunormalclose
-                } `}
+                  } `}
               />
             </div>
           </nav>
         </header>
- 
-        <div id="sidebar"  className={` ${isSticky ? styles.sidesticky : styles.sideNormal}`}    >
+
+        <div id="sidebar" className={` ${isSticky ? styles.sidesticky : styles.sideNormal}`}    >
           <nav className="flex flex-wrap flex-col  ">
             <ul className="flex font-semibold flex-col gap-6">
               <li className="estiva_nav hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 ">
@@ -288,12 +275,7 @@ const HOmeNav = () => {
                     <li
                       className={`estiva_nav flex gap-5 group hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 p-3`}
                     >
-                      <Image
-                        src="/icons/middle_icon/ads.png"
-                        width={42}
-                        height={30}
-                        alt="digital marketing"
-                        className="group-hover:scale-105 transition ease-in-out  duration-300"
+                      <Image src="/icons/middle_icon/ads.png" width={42} height={30} alt="digital marketing" className="group-hover:scale-105 transition ease-in-out  duration-300"
                       />
                       <Link href="/digital-marketing-services ">
                         <span>Digital Marketing</span>
@@ -306,12 +288,7 @@ const HOmeNav = () => {
                     <li
                       className={`estiva_nav  flex gap-5 group hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 p-3`}
                     >
-                      <Image
-                        src="/icons/middle_icon/agile2.png"
-                        width={42}
-                        height={30}
-                        alt="web development"
-                        className="group-hover:scale-105 transition ease-in-out  duration-300"
+                      <Image src="/icons/middle_icon/agile2.png" width={42} height={30} alt="web development" className="group-hover:scale-105 transition ease-in-out  duration-300"
                       />
                       <Link href="/web-development-services">
                         <span>Web Development</span>
@@ -324,12 +301,7 @@ const HOmeNav = () => {
                     <li
                       className={`estiva_nav flex gap-5 group hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 p-3`}
                     >
-                      <Image
-                        src="/icons/middle_icon/ui.png"
-                        width={42}
-                        height={30}
-                        alt="ui ux desing"
-                        className="group-hover:scale-105 transition ease-in-out  duration-300"
+                      <Image src="/icons/middle_icon/ui.png" width={42} height={30} alt="ui ux desing" className="group-hover:scale-105 transition ease-in-out  duration-300"
                       />
                       <Link href="/web-design-services">
                         <span>Web & UI/UX</span>
@@ -343,12 +315,7 @@ const HOmeNav = () => {
                     <li
                       className={`estiva_nav  flex gap-5 group hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 p-3`}
                     >
-                      <Image
-                        src="/icons/middle_icon/endtoend.png"
-                        width={42}
-                        height={30}
-                        alt="software development"
-                        className="group-hover:scale-105 transition ease-in-out  duration-300"
+                      <Image src="/icons/middle_icon/endtoend.png" width={42} height={30} alt="software development" className="group-hover:scale-105 transition ease-in-out  duration-300"
                       />
                       <Link href="/software-development-services">
                         <span>Software Development</span>
@@ -361,12 +328,7 @@ const HOmeNav = () => {
                     <li
                       className={`estiva_nav flex gap-5 group hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50 p-3`}
                     >
-                      <Image
-                        src="/icons/middle_icon/timly.png"
-                        width={42}
-                        height={30}
-                        alt="multimedia"
-                        className="group-hover:scale-105 transition ease-in-out  duration-300"
+                      <Image src="/icons/middle_icon/timly.png" width={42} height={30} alt="multimedia" className="group-hover:scale-105 transition ease-in-out  duration-300"
                       />
                       <Link href="/multimedia-presentation-services">
                         <span>Multi-Media</span>
@@ -380,9 +342,7 @@ const HOmeNav = () => {
                 </div>
               </li>
               <li className="estiva_nav hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50">
-                <Link
-                  href="/https://www.estivasoftech.com/blog/"
-                  className="py-7  px-4 "
+                <Link  href="/https://www.estivasoftech.com/blog/"  className="py-7  px-4 "
                 >
                   <span>Blog</span>
                 </Link>
@@ -399,7 +359,7 @@ const HOmeNav = () => {
 
 
       </section>
- 
+
     </>
   );
 };

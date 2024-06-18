@@ -107,3 +107,32 @@ export const ThreeCardLeftData=[
 
 
 ]
+export const TestimonialsData=[
+  {
+      dec:"I was looking for a multimedia agency in India for my interview capturing at affordable prices. Thanks to Estivasoftech. They helped me in covering the best shots of mine. Great team! ",
+      name:"Devendra Bhoj",
+      role:"",
+  },
+  {
+      dec:"Very cooperative team, with good expertise in product shooting. I really liked the overall photoshoot. ",
+      name:"Kamlesh Jain",
+      role:"",
+  },
+  {
+      dec:"Exceptional videography services. We got amazing shots of our business with your help. Thanks a lot! ",
+      name:"Dr. R.D. Yadav ",
+      role:"",
+  },
+
+]
+
+
+export const metadata = [
+  {
+    titles: "Professional Corporate Shoot Company in Delhi NCR | EstivaSoftech",
+    description:
+      "Elevate your corporate image with EstivaSoftech's expert photoshoot and videography service. Give a 360-degree view & let your people know you deeply.",
+    canonical: "https://www.estivasoftech.com/photoshoot-company-in-delhi-ncr",
+    imagepath: "/bg/og-image.png",
+  },
+];

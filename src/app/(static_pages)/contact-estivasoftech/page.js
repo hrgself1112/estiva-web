@@ -6,7 +6,7 @@ import { HiOutlineBuildingOffice } from "react-icons/hi2";
 import { CiMail, CiMobile1 } from "react-icons/ci";
 import Form from "@/components/form/formMaincomp";
 import { generateMetaTags } from "@/components/metacomp/metamain";
-import { ContactMeta } from "@/data/metaTags/metaData";
+import { ContactMeta } from "@/data/metaData";
 
 const ContactData = [
   {
@@ -124,6 +124,8 @@ const ContactUs = () => {
             />
           </div>
         </section>
+
+        
       </Layout>
     </>
   );

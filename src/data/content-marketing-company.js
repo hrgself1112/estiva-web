@@ -106,3 +106,36 @@ export const Faq = [
       "Absolutely! Content distribution and promotion are vital aspects of content marketing success. EstivaSoftech utilizes various channels, including social media, and influencer outreach, to maximize the visibility and engagement of your content.",
   },
 ];
+
+
+export const metadata = [
+  {
+    titles:
+      "#1 Best Content Marketing Agency in India | Create Impactful Story",
+    description:
+      "Transform your brand's online presence with the leading content marketing agency in India. We create captivating storytelling, data-driven insights & more.",
+    canonical: "https://www.estivasoftech.com/content-marketing-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"I hired estivasoftech for my website building and content marketing on google. Had to mention that they were consistent, and time-focused throughout the project. Great work y'all!.  ",
+      name:"Arvind Bambroo",
+      role:"",
+  },
+  {
+      dec:"I was looking for a company who could help me with organic human written content. And found estivasoftech. They helped me with customised content strategy and gave accurate content marketing strategy. I was looking for my web content.  ",
+      name:"Babita Kushwaha",
+      role:"",
+  },
+  {
+      dec:"Really loved working with EstivaSoftech, the Best content marketing agency in Noida, India. I have been taking content marketing services from them for the past 2 years, and undoubtedly, they are up to work! The team is very professional & knowledgeable. Must recommend.  ",
+      name:"Ramesh Singh Bisht",
+      role:"",
+  },
+
+]

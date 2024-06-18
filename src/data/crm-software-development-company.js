@@ -110,3 +110,32 @@ export const Faq = [
     },
 
 ]
+
+export const TestimonialsData=[
+  {
+      dec:"I am fully satisfied with your CRM service. Good team, on time delivery. Must recommended place",
+      name:"N. K. Safaya",
+      role:"",
+  },
+  {
+      dec:"I was looking for a crm software company and came across estivasoftech. Highly impressed with their service. Great service.  ",
+      name:"Manpreet Kaur",
+      role:"",
+  },
+  {
+      dec:"Expert team with in-depth knowledge in our industry. Thanks for creating a top crm software development solution for us.",
+      name:"Prerna Choudhary ",
+      role:"",
+  },
+
+]
+
+export const metadata = [
+  {
+    titles: "CRM Software Development Company | Manage Customer-Relationships",
+    description:
+      "Grow customer-brand interactions with our CRM application development services. A top CRM software development company offering 100% customer satisfaction.",
+    canonical: "https://www.estivasoftech.com/crm-software-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

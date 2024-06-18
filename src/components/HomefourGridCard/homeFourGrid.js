@@ -2,7 +2,7 @@
 import style from "./homeFourGridCard.module.css";
 import Button from "../buttonMain/buttonfill";
 import Image from "next/image";
-import EstivaWhy from "@/data/homeDatacomp/why";
+import EstivaWhy from "@/data/why";
 
 
 const HomeFourGridCard = () => {

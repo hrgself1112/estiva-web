@@ -161,3 +161,33 @@ export const Faq = [
       "EstivaSoftech is an eCommerce PPC agency that is designed to cater to businesses of all sizes and industries. Whether you're a small startup or a well-established enterprise, our strategies can be tailored to meet your unique needs.",
   },
 ];
+
+export const metadata = [
+  {
+    titles: "#1 Best PPC Company in India | Build Result-Oriented Campaigns",
+    description:
+      "Discover the potential of your brand by targeting the Best PPC company in India. EstivaSoftech elevates traffic, website sales, & scale-up ROI.",
+    canonical: "https://www.estivasoftech.com/pay-per-click-services",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+  {
+      dec:"Great company to work with, very professional but feels like family. Estivasoftech truly cared about my business. Good strategy builder and a great environment. This was my first time with them, and it was great. ",
+      name:"Tejas Sharma",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech is an exceptional PPC agency based in Delhi. From my experience working with them, I can confidently say that they are a top-notch team for expert PPC support. Their strategies helped me get good results within a specific time. Thank you.",
+      name:"Varun Paliwal",
+      role:"",
+  },
+  {
+      dec:"Excellent company to work with; professional plus approachable. They understood the company's needs and accordingly made strategies, which I saw in the results. Suggested place for all PPC marketing services in India. ",
+      name:"Shraddha Arya ",
+      role:"",
+  },
+]
+

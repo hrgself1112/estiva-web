@@ -118,3 +118,36 @@ export const ProcessData = [
 
 
 ]
+
+
+export const TestimonialsData=[
+  {
+      dec:"Great mobile app development services in Delhi. I asked them to make a android app for my real estate business, and thankfully they stood on my expectations. I got my app released on google play store too. Thanks Estivasoftech. ",
+      name:"Bhopal Mehta",
+      role:"",
+  },
+  {
+      dec:"I really liked their team work. How they understood my needs, and put their ideas in transparently. I got a beautiful hybrid app designed by them. Getting good reviews from my people too. Great team ",
+      name:"M. Kavita",
+      role:"",
+  },
+  {
+      dec:"Timely delivery and support, which i liked the most. Good knowledge on latest tools. You are the best mobile app development company in India. Keep going guys.",
+      name:"Akhilesh Pawar",
+      role:"",
+  },
+
+]
+
+
+export const metadata = [
+  {
+    titles: "Best Mobile App Development Company in India | Android & iOS Apps",
+    description:
+      "Build user-friendly & high-performance apps that deliver across iOS and Android platforms with the best mobile app development company in India.",
+    canonical:
+      "https://www.estivasoftech.com/mobile-application-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+

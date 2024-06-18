@@ -110,3 +110,37 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"I wanted someone to redesign my website. And came across estivasoftech. They are superb. They stood upon what I exactly wanted this time. Thanks a lot to you all. ",
+      name:"Akshay Rupnawar",
+      role:"",
+  },
+  {
+      dec:"Got affordable, and quality results. A great place for web redesigning services in India. ",
+      name:"Dr. K.J Kalra",
+      role:"",
+  },
+  {
+      dec:"Thanks to Estivasoftech for helping me out. I finally got a responsive website for my brand. All because of you. Must suggested place guys.",
+      name:"Ashwin Basu",
+      role:"",
+  },
+]
+
+
+export const metadata = [
+  {
+    titles: "#1 Best Website Redesign Company in India | EstivaSoftech",
+    description:
+      "Unleash the potential of your online presence with EstivaSoftech's website redesign service and create modern, user-friendly, and visually stunning designs",
+    canonical: "https://www.estivasoftech.com/web-redesigning-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

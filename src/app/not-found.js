@@ -1,83 +1,51 @@
-import Image from "next/image";
+"use client"
+ 
+import PageNav from "@/components/headerMAin/pagenav";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
 import Link from "next/link";
-import style from "../app/error.module.css";
-import Layout from "@/components/headerMAin/layout";
+import Button from "@/components/buttonMain/buttonfill";
 
 export default function NotFound() {
-  let {
-    central_body,
-    bg_purple,
-    glowing_stars,
-    earth_moon,
-    star,
-    error,
-    objects,
-    object_earth,
-    object_rocket,
-    object_moon,
-    box_astronaut,
-    object_astronaut,
-    btn_go_home,
-    image_404,
-  } = style;
+ 
+	const router = useRouter();
+	useEffect(() => {
+	  setTimeout(() => {
+		router.push("/");
+	  }, 8000);
+	}) , [];
+  
   return (
-    <>
-      <Layout>
-        <div className={`${bg_purple} relative  ${error}`}>
-          <div className={`${central_body} flex flex-col items-center`}>
-            <Image
-              className={`${image_404}  animate-bounce ease-in-out transition-transform  duration-500 `}
-              src="/estiva404.svg"
-              width={300}
-              height={200}
-              alt="estiva error"
-            />
-            <Link href="/" className={btn_go_home}>
-              GO BACK HOME
-            </Link>
-          </div>
-          <div className={objects}>
-            <Image
-              className={object_rocket}
-              src="/rocket.svg"
-              width={40}
-              height={40}
-              alt="estiva rocket"
-            />
-            <div className={earth_moon}>
-              <Image
-                className={object_earth}
-                src="/earth.svg"
-                width={100}
-                height={100}
-                alt="estiva earth"
-              />
-              <Image
-                className={object_moon}
-                src="/moon.svg"
-                width={80}
-                height={100}
-                alt="estiva earth"
-              />
-            </div>
-            <div className={box_astronaut}>
-              <Image
-                className={object_astronaut}
-                src="/astronaut.svg"
-                width={140}
-                height={100}
-                alt="estiva earth"
-              />
-            </div>
-          </div>
-          <div className={glowing_stars}>
-            <div className={star}></div>
-            <div className={star}></div>
-            <div className={star}></div>
-            <div className={star}></div>
-          </div>
-        </div>
-      </Layout>
+    <> 
+       <PageNav/>
+      <section className="page_404">
+	<div className="container">
+		<div className="row">	
+		<div className="col-sm-12 ">
+		<div className="col-sm-10 col-sm-offset-1  text-center">
+		<div className="four_zero_four_bg">
+			<h1 className="text-center ">404</h1>
+		
+		
+		</div>
+		
+		<div className="contant_box_404">
+		<h3 className="h2">
+		Look like you're lost
+		</h3>
+		
+		<p>the page you are looking for not avaible!</p>
+	
+		<Button><Link href="/">Home Page</Link></Button>
+
+	</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
+ 
     </>
   );
 }

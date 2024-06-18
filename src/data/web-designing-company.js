@@ -115,3 +115,37 @@ alt:'Increased Conversions'
 
 
 ]
+
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"It was very nice working with you all. Team is expert. I think they are the best website Designing company in India. I have been their client for the past 3 years. And they are superb. Will definitely recommend you to take web design services, graphics & seo services from them. ",
+      name:"Fatima ",
+      role:"",
+  },
+  {
+      dec:"The team at this company is prompt in communication, highly reliable, and always willing to go forward for good results. ",
+      name:"Pawan Singh",
+      role:"",
+  },
+  {
+      dec:"Estivasoftech is undoubtedly the best web designing company in Delhi NCR. They provide the best service by keeping the quality in mind. Their work is always beyond your expectations which i like the most. ",
+      name:"Druv Batra",
+      role:"",
+  },
+
+]
+
+
+
+export const metadata = [
+  {
+    titles: "Best Web Design Services in India | EstivaSoftech Web Solutions",
+    description:
+      "Capture your audience's attention & convey your brand's essence through visually striking and user-friendly web design services in Delhi NCR.",
+    canonical: "https://www.estivasoftech.com/web-designing-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

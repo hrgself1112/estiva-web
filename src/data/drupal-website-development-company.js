@@ -111,11 +111,39 @@ alt:'Mobile Responsiveness'
     question:"How long does it take to develop a Drupal website with EstivaSoftech?",
     answer:"The timeline for developing a Drupal website depends on various factors, including the complexity of the project, the scope of work, and the specific requirements. EstivaSoftech follows a well-structured development process to ensure timely delivery without compromising on quality",
     },
+  ]
 
 
 
+  
+export const metadata = [
+  {
+    titles: "Drupal-Based Website Development Company in India | EstivaSoftech",
+    description:
+      "Ready to craft a website that's visually stunning & technologically advanced? Get in touch with the best Drupal based website development company in India.",
+    canonical:
+      "https://www.estivasoftech.com/drupal-website-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
 
+export const TestimonialsData =[
 
+  {
+      dec:"You are the Best website development company in noida. Thanks for creating such a good website for me, that too on time. ",
+      name:"Karan Singh Karki",
+      role:"",
+  },
+  {
+      dec:"EstivaSoftech is an exceptional website development company in India. They created a stunning website for my bakery business, and the team was highly supportive. I will look forward to you for our future projects.",
+      name:"Sunita Baghel",
+      role:"",
+  },
+  {
+      dec:"Earlier i was a little confused about my website building. But now I am really happy with their web development services. They helped me executing my ideas for the site into reality. Thanks Estivasoftech. ",
+      name:"Deepak Mehta",
+      role:"",
+  },
 
 
 ]

@@ -115,3 +115,38 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+
+export const metadata = [
+  {
+    titles: "India's #1 Top WordPress Website Development Company",
+    description:
+      "Struggling to build an impactful website? You need EstivaSoftech, a top WordPress website development company for an agile, customized, & cool website.",
+    canonical:
+      "https://www.estivasoftech.com/wordpress-website-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+export const TestimonialsData=[
+    {
+        dec:"No fake promises. Thank you EstivaSoftech for giving me the best web development services. Cheers to the hardworking core team!",
+        name:"Madhu Priya Krishnan",
+        role:"",
+    },
+    {
+        dec:"Estivasoftech stands out as a dynamic agency in Noida, excelling in web development services. Their team is highly collaborative, and supportive. Impressed with their innovative solutions, and the team's dedication. It is a highly recommended place if anyone need good web development services. ",
+        name:"Harsh Kumar",
+        role:"",
+    },
+    {
+        dec:"Exceptional service you all! They deliver top-notch solutions with high expertise and efficiency. A true industry leader!",
+        name:"Varun Jugran",
+        role:"",
+    },
+    {
+        dec:"EstivaSoftech helped me in setting up a proper functioning website. They finely understood all the personation needs i needed. Thanks to them for getting me what I actually needed.",
+        name:"Sandesh Khatri",
+        role:"",
+    },]

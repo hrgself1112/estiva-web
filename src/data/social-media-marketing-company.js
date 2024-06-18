@@ -164,3 +164,41 @@ export const CardsData =[
     answer:"It depends on your specific business goals and target audience. We commonly work with popular platforms like Facebook, Instagram, Twitter, LinkedIn, Pinterest, and YouTube.",
     },
 ]
+
+
+
+export const metadata = [
+  {
+    titles: "EstivaSoftech | #1 Best Social Media Marketing Agency in India",
+    description:
+      "Join the best social media marketing agency in India & inspire people across multi platforms. We create, connect & convert via an impactful SMM strategy.",
+    canonical: "https://www.estivasoftech.com/social-media-marketing-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+
+export const TestimonialsData=[
+  {
+      dec:"I was looking for a digital marketing agency in India that could enhance my business reach on Instagram and Facebook. And came across EstivaSoftech. Thankfully, I invested in the right place. They managed my social media reach efficiently. ",
+      name:"Akash Singh",
+      role:"",
+  },
+  {
+      dec:"The team at EstivaSoftech is very systematic, they stick to the deadlines, are very transparent and highly professional. I am extremely happy with their service.",
+      name:"John Mathew",
+      role:"",
+  },
+  {
+      dec:"I've been following the social media accounts of EstivaSoftech and their up so far information and interesting content. From there, I got inspired to hire them for my social media marketing services. I got effective change via my social media accounts. They are surely a must-suggested marketing team. ",
+      name:"Rajesh Arora",
+      role:"",
+  },
+
+  {
+      dec:"They provide best social media marketing services in India. It's trustworthy, highly recommended!",
+      name:"Ansar Muhammad",
+      role:"",
+  },
+
+]

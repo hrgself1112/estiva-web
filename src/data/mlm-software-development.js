@@ -170,6 +170,43 @@ export const UpperDataa=[
     question:"Is EstivaSoftech's MLM software mobile-friendly?",
     answer:"Yes, our MLM software is designed to be mobile-responsive. Distributors can conveniently access and manage their networks, monitor their performance, and perform various tasks on the go, enhancing productivity and engagement.",
     },
-
-
 ]
+
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"One of the best MLM software development companies in India. I had an amazing experience in software development. Got exceptional support and service, their incredible team. Amazed with your innovative ideas. Thanks to Estivasoftech.",
+      name:"Adithiya S",
+      role:"",
+  },
+  {
+      dec:"We are truly satisfied choosing  this company for our MLM Software development project partner. Good work guys. ",
+      name:"Alex Kotsyuk",
+      role:"",
+  },
+  {
+      dec:"Hi, your MLM development service is so nice. I am really very happy with you gus, especially your timely delivery. Thanks for your support.",
+      name:"Yash Kove",
+      role:"",
+  },
+  {
+      dec:"My experience was really very good with EstivaSoftech for MLM Software Development services. The team is really very good, and cheers to your custom support",
+      name:"Pankaj Yadav",
+      role:"",
+  },
+]
+
+export const metadata = [
+  {
+    titles: "#1 Best MLM Software Solutions in India | EstivaSoftech",
+    description:
+      "Create advanced & scalable software that streamline operations, enhance network management, and fuel success with the best MLM Software solutions in India.",
+    canonical:
+      "hhttps://https://www.estivasoftech.com/mlm-software-development",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+

@@ -104,3 +104,37 @@ export const ThreeCardLeftData=[
 
 
 ]
+
+
+
+
+export const metadata = [
+  {
+    titles: "#1 Magento Website Development Company in India | EstivaSoftech",
+    description:
+      "We are the leading Magento website development company in India driving growth & sales with specialized Magento eCommerce website development services.",
+    canonical:
+      "https://www.estivasoftech.com/magento-website-development-company",
+    imagepath: "/bg/og-image.png",
+  },
+];
+
+export const TestimonialsData=[
+
+  {
+      dec:"My experience with estivasoftech has been great. My website was very easy to navigate and i personally got good reviews from my friends for it. Thanks.",
+      name:"Mayank Pal Singh",
+      role:"",
+  },
+  {
+      dec:"EstivaSoftech truly exceeded my expectations on our web development project. I required a website for my online real estate business. Their team is very targeted towards the strategies, delivering a user-friendly site with a sleek design and robust functionality. Really liked their service. ",
+      name:"Sahil Rawat",
+      role:"",
+  },
+  {
+      dec:"I really appreciate their proactive team. How they communicate, and resolve all our doubts giving us proper time. Kudos to their professionalism. I look forward to you guys for future projects.",
+      name:"K. Monica",
+      role:"",
+  },
+
+]

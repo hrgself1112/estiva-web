@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { CardsHomeData, } from '@/data/homeDatacomp/homecardsData'
+import { CardsHomeData, } from '@/data/homecardsData'
 import { HomeCards } from './Homecard'
 
 

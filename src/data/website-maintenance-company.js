@@ -119,3 +119,35 @@ alt:'Proactive Monitoring'
 
 
 ]
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"Excellent work for my company website design and maintenance. Team is very professional and their website developers were collaborative with my team. I recommend them for any website development services. Best of luck!",
+      name:"Tanishq Kumar",
+      role:"",
+  },
+  {
+      dec:"Had to say that they are Great team, great work. A very responsible team.  ",
+      name:"Gargi Sharma",
+      role:"",
+  },
+  {
+      dec:"Thank you EstivaSoftech for amazing web maintenance and smm services. We were looking for a company for website revamping and social media management and got to know about them. They are superb and have great expertise. ",
+      name:"Nandini Kumari",
+      role:"",
+  },
+]
+
+
+
+export const metadata = [
+  {
+    titles: "EstivaSoftech's #1 Best Website Maintenance Services India",
+    description:
+      "Keep your website running and up-to-date with EstivaSoftech's expert website maintenance services. We handle everything you need to have a cool website.",
+    canonical: "https://www.estivasoftech.com/website-maintenance-company",
+    imagepath: "/bg/og-image.png",
+  },
+];

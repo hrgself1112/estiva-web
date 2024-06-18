@@ -156,3 +156,40 @@ alt:'Transparent Reporting and Communication'
   },
 ];
 // --------simpleDataCard-------------------
+
+
+
+export const TestimonialsData=[
+  {
+      dec:"Estivasoftech excels in understanding their clients' needs brilliantly. I hired them for my cleaning service website and got amazing results. The team is simply amazing, supporting my team at every step. Simply the best SEO agency in Delhi NCR.",
+      name:"Naresh Tiwari",
+      role:"",
+  },
+  {
+      dec:"I am highly impressed with the SEO services Estivasoftech gave. Their expertise and attention to detail have helped me get good customers. Thanks estivasoftech! ",
+      name:"Kavita Khera",
+      role:"",
+  },
+  {
+      dec:"With Estivasoftech’s best SEO services in India, you can directly increase the target traffic to your website. Over the past five years, I have been taking multiple services with them for my business. I have witnessed significant growth in my sales. Highly recommend this place. ",
+      name:"Lokesh Gupta",
+      role:"",
+  },
+
+  {
+      dec:"Must have to say that EstivaSoftech is surely the best SEO agency in India. Their team helped me work significantly on Google within a limited time. Highly impressed with their service. Keep it up, guys!",
+      name:"Pawan Mishra",
+      role:"",
+  },
+
+]
+
+export const metadata = [
+  {
+    titles: "India’s #1 SEO Service Agency | Target User-Search SEO Strategy ",
+    description:
+      "Scale Up your SEO strategy beyond keywords with EstivaSoftech, a leading SEO service agency. Meet with real-time SEO experts & boost your brand visibility.",
+    canonical: "https://www.estivasoftech.com/seo-services",
+    imagepath: "/bg/og-image.png",
+  },
+];

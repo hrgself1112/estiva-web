@@ -9,28 +9,22 @@ const Cards = ({cardTwoData,UpperData}) => {
 
 
             <div  className="w-full">
-            {
-              UpperData.map((items,i)=>{
+            { UpperData.map((items,i)=>{
                 let{mainHeading,subHeading}=items
-                return(
-
-            <div
- key={i} className="mb-10">
+                return(  
+                <div key={i} className="mb-10">
                 <h2>{mainHeading}</h2>
                 <h4>{subHeading}</h4>
-            </div>
+                </div>
                 )
               })
             }
 
               <div className="grid grid-cols-3 gap-3 max-lg:grid-cols-2 max-sm:grid-cols-1 ">
-
-              {
-            cardTwoData.map((items,i)=>{
+              { cardTwoData.map((items,i)=>{
               let{description,heading,icons,alt}=items
               return(
-                <div
- key={i} className=" p-6 shadow-xl shadow-slate-100  transition duration-500 rounded-3xl estiva_card_shadow">
+                <div key={i} className=" p-6 shadow-xl shadow-slate-100  transition duration-500 rounded-3xl estiva_card_shadow">
                   <div className="w-20 h-20 bg-slate-100 border-dotted border-2 rounded-2xl text-3xl flex align-middle justify-center items-center shadow-sm">
                     <Image src={icons} alt={alt} width={68} height={68} className="hover:scale-110"></Image>
                   </div>

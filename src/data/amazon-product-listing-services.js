@@ -116,3 +116,33 @@ export const SepratorOneData=[
 ]
 
 
+
+export const TestimonialsData=[
+
+  {
+      dec:"Estivasoftech was a game-changer for my business. Their Flipkart, Ajio, and Myntra registration services have significantly helped my brand improve and got good product sales in specific time. This is the suggested place for product listing service in India. ",
+      name:"Ranjana Basu",
+      role:"",
+  },
+  {
+      dec:"Great team work for amazon onboarding. Really impressed.         ",
+      name:"Ankur Prakash",
+      role:"",
+  },
+  {
+      dec:"They exceeded my exceptions with respect to my product's reach, visibility and sale numbers. The best product listing service in India to grow your business and scale new heights.",
+      name:"Sweta Kohl",
+      role:"",
+  },
+
+]
+export const metadata = [
+  {
+    titles:
+      "Best Ecommerce Product Listing Solutions | Amazon Flipkart Shopify",
+    description:
+      "Boost your online sales with EstivaSoftech's product listing services in eCommerce space. Target locally & globally on Amazon, Flipkart, Shopify & more.",
+    canonical: "https://www.estivasoftech.com/amazon-product-listing-services",
+    imagepath: "/bg/og-image.png",
+  },
+];
