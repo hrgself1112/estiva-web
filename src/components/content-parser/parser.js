@@ -9,7 +9,7 @@ export const parseContent = (content) => {
         if (name === 'a' && attribs.href) {
           return (
             <Link className={attribs.className} href={attribs.href} passHref>
-        {domToReact(children)} 
+                {domToReact(children)} 
             </Link>
           );
         }

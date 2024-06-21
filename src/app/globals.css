@@ -1795,10 +1795,11 @@ h5 {
   padding: 22px 34px;
 }
 
-.estivatagsLink {
+.estivatagsLink , .link {
   font-weight: 800;
 }
-.estivatagsLink:hover {
+.estivatagsLink:hover , 
+.link:hover {
   font-weight: 800;
   background: -o-radial-gradient(
     center center,
@@ -3021,3 +3022,30 @@ ul .nav-item_mobile:hover .estiva_submenu_mobile {
     margin: 20px 0;
     display: inline-block;}
 	.contant_box_404{ margin-top:-50px;}
+
+
+  ._PuckLayout_1g88c_31 {
+    bottom: 0;
+    left: 0;
+    position: unset !important;
+    right: 0;
+    top: 0;
+}
+
+
+.text-12{font-size:  12px;}
+.text-16{font-size:  16px;}
+.text-20{font-size:  20px;}
+.text-24{font-size:  24px;}
+.text-28{font-size:  28px;}
+.text-32{font-size:  32px;}
+.text-36{font-size:  36px;}
+
+p.text-36{font-size:  32px;}
+p.text-32{font-size:  28px;}
+p.text-28{font-size:  24px;}
+p.text-24{font-size:  20px;}
+p.text-20{font-size:  16px;}
+p.text-16{font-size:  12px;}
+p.text-12{font-size:  08px;}
+

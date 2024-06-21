@@ -197,7 +197,7 @@ const HOmeNav = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.estivasoftech.com/blog/"
+                  href="/blogs/"
                   className="py-7 uppercase px-4 estiva_nav hover:shadow-lg transition ease-in-out  duration-300 shadow-blue-500/50"
                 >
                   <span>Blog</span>

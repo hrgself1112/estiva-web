@@ -11,18 +11,9 @@ import FormMian from "@/components/form/formStructure";
 
 
 
-const Layout = ({ children, isHomePage  ,wantLayout}) => {
+const Layout = ({ children, isHomePage  ,footerone, footertwo, footerthree,footerfour ,  footerfive}) => {
   
-  const additionalComponents = (
-    <>
-      <FormMian />
-      <FooterUppernew />
-      <ServiceSlider />
-      <FooterMain />
-      <FooterBottom />
-    </>
-  );
-
+ 
 
   return (
     <div>
@@ -31,9 +22,14 @@ const Layout = ({ children, isHomePage  ,wantLayout}) => {
 
 
       {children}
+       
 
-
-      {wantLayout === undefined || wantLayout === true ? additionalComponents : null}
+      {footerone === undefined || footerone === null || footerone === true ?  <FormMian /> : null }
+      {footertwo === undefined || footertwo === null || footertwo === true  ?  <FooterUppernew /> : null }
+      {footerthree === undefined || footerthree === null || footerthree === true  ?  <ServiceSlider /> : null }
+      {footerfour === undefined || footerfour === null || footerfour === true  ?  <FooterMain /> : null }
+      {footerfive === undefined || footerfive === null || footerfive === true  ?  <FooterBottom /> : null }
+      
       
 
 
