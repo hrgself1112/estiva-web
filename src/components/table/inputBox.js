@@ -10,7 +10,7 @@ const InputBox = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch(`http://localhost:4000/api/blogs/getArticleMetadataByURL/${inputValue}`);
+            const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/getArticleMetadataByURL/${inputValue}`);
             const data = await response.json();
          
             // console.log(data); // Handle the response data

@@ -2,9 +2,11 @@
 import React, { useState } from 'react';
 import Link from "next/link"
 import { signout } from '@/auth/auth';
+import { useRouter } from 'next/navigation';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+const router = useRouter()
 
   const handleBurgerClick = () => {
     setMenuOpen(!menuOpen);
@@ -13,11 +15,16 @@ const Header = () => {
   const handleCloseClick = () => {
     setMenuOpen(false);
   };
+  const handleBack = () => {
+    router.back()
+  };
 
   return (
     <div className="bg-blue-500 border border-b-stone-400">
       <nav className="relative px-4 py-4 flex justify-between items-center bg-white">
-       
+     <div onClick={handleBack} className='bg-gray-200 p-1 rounded-2xl cursor-pointer'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="30" height="30" viewBox="0 0 1000 1000"><path d="M166 499l333 333 59-59-232-232h506v-84H326l232-232-59-59z"/></svg>
+      </div>
         <div className="lg:hidden">
           <button className="Header-burger flex items-center text-blue-600 p-3" onClick={handleBurgerClick}>
             <svg className="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -26,6 +33,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
+      
         <ul className={`hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6 ${menuOpen ? 'block' : 'hidden'}`}>
           <li><Link className="text-sm text-gray-700 hover:text-gray-700" href="/admin">Dashboard</Link></li>
           

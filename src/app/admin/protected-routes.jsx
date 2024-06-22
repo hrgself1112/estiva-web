@@ -3,12 +3,11 @@
 import useAuth from '@/hooks/useAuth';
 import PageLoading from './page-loading';
 import LoginForm from '@/components/auth/login-form';
-import Header  from '@/components/admin-dashbaord/header';
-import useAutoSignOut from '@/hooks/autoSignOut';
+import Header  from '@/components/admin-dashbaord/header'; 
 
 const ProtectedRoute = ({ children }) => {
     const {user ,loading} = useAuth()
-    // useAutoSignOut()
+   
  
    if (loading) {
     return <PageLoading/>

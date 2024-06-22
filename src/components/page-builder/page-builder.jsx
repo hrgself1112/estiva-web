@@ -10,6 +10,7 @@ import toast from 'react-hot-toast';
 import LoadingBar from 'react-top-loading-bar'
 import Button, { BTnOutline, BtnAnimation } from "../buttonMain/buttonfill";
 import Link from "next/link"; 
+import Image from "next/image";
  
 
 
@@ -43,9 +44,9 @@ export  function  Editor({blog_id}) {
   
   React.useEffect(() => {
     if (blog_id != undefined) {
-      fetchData(`http://localhost:4000/api/blogs/get-blog-by-id/${blog_id}`)
+      fetchData(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/get-blog-by-id/${blog_id}`)
     }
-  }, []);
+  }, [blog_id]);
 
  
 
@@ -53,7 +54,7 @@ export  function  Editor({blog_id}) {
 const save = async (editorData) => { 
   setProgress(20)
   try {
-    const response = await fetch('http://localhost:4000/api/blogs/submit-articles', {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/submit-articles`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -119,9 +120,11 @@ const Error = ()=>{
                   </div>
                 </div>
                 <h1 className="text-2xl font-bold mb-4">Oops... something went wrong  ( ´•︵•` )</h1>
-                <img src="/error.png" alt="Error Illustration" className="mx-auto" />
 
-                <BtnAnimation><Link href="/admin"> Dashboard</Link></BtnAnimation>
+                <div className="relative w-auto h-[20rem] ">
+                <Image src="/error.png" fill alt="Error Illustration" className="mx-auto" />
+                </div>
+ 
               </div>
 
               

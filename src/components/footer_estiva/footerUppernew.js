@@ -11,7 +11,7 @@ const FooterUppernew = () => {
           <div className="wrapper">
             <div className="w-[70%] max-lg:w-full ">
               <div className=" ml-20 max-md:block  max-xl:block flex items-center gap-6">
-                <div className="w-[80%] px-9">
+                <div className="lg:md:xl:w-[80%] md:lg:xl:px-9 w-[100%] p-0">
                   <h3 className="titlebox text-3xl">
                   Embark on Your Growth Expedition with Estivasoftech's Premier Digital Marketing &
                   Software Agency!

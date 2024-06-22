@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export async function fetchDataofArticle(url) {
   try {
-    const res = await fetch(`http://localhost:4000/api/blogs/getArticlebyurl/${url}`, { next: { revalidate: 3600 } });
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/getArticlebyurl/${url}`, { next: { revalidate: 3600 } });
     return res.json();
   } catch (error) {
     console.log(error)
@@ -18,7 +18,7 @@ export async function fetchDataofArticle(url) {
 }
 export async function fetchDataofArticlemetadata(limit) {
   try {
-    const res = await fetch(`http://localhost:4000/api/blogs/get-metadata?limit=${limit}`, { next: { revalidate: 3600 } });
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/get-metadata?limit=${limit}`, { next: { revalidate: 3600 } });
     return res.json();
   } catch (error) {
     console.log(error)
@@ -55,25 +55,25 @@ const page = async ({ params }) => {
 
         <CategoriePages items={schemaData} />
 
-        <div className="mx-12 my-12">
+        <div className="xl:lg:md:mx-12 xl:lg:md:my-12 mx-4 my-4  sm:flex-col">
 
-          <div className="flex gap-4">
+          <div className="flex flex-col  sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-4">
             <div style={{ flex: 9 }}>
               {content?.map((component, index) => (
                 <DynamicComponent key={index} component={component} />
               ))}
             </div>
-            <div className='h-[50rem] overflow-y-scroll top-[5rem] sticky ' style={{ flex: 4 }}>
+            <div className='h-[50rem] lg:md:xl:overflow-y-scroll top-[5rem] sticky ' style={{ flex: 4 }}>
               <KnowledgeBox />
             </div>
           </div>
+ 
 
-
-
-          <div className="grid my-10 grid-cols-4 gap-10">
+          <div className="grid my-10   sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-10">
 
             {articles?.articles.map((article, index) => (
               <HorizontalCard
+              key={index}
                 image={article.data.root.props.Image}
                 url={article.data.root.props.Url}
                 alt={article.data.root.props.Alt}
@@ -113,7 +113,7 @@ const KnowledgeBox = async () => {
       <h2 className="text-purple-600 font-semibold mb-4">Recommedation</h2>
       <div className="space-y-4">
         {data?.articles.map((article, index) => (
-          <Link className="" href={`/blogs/${article.data.root.props.Url}`}>
+          <Link key={index} className="" href={`/blogs/${article.data.root.props.Url}`}>
             <div
               key={article._id}
               className="flex items-center my-3 justify-between p-4 bg-zinc-100 dark:bg-zinc-700 rounded-lg">

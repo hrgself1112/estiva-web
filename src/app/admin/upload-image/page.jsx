@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import ProtectedRoute from '../protected-routes';
+import Image from 'next/image';
 const axios = require('axios');
 
 const Page = () => {
@@ -82,8 +83,8 @@ const Page = () => {
       formData.append('file', file, image.name); // Use original file name
     }
 
-    try {
-      const response = await axios.post('http://localhost:4000/upload', formData, {
+    try { 
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_SERVER_PORT}/upload`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -149,10 +150,10 @@ images.length>0?<>
   <div className="flex bg-gray-100  flex-wrap my-5 -m-2.5">
        
   {images.map((image, index) => (
-          <div className="w-[200px] p-2.5 mb-3" key={index}>
+          <div className="w-[200px] hover:bg-blue-200 rounded-2xl p-2.5 mb-3" key={index}>
             <div
               style={{ backgroundImage: `url(${image.url})` }}
-              className="relative pb-[100%] bg-center bg-cover cursor-pointer"
+              className="relative pb-[100%] rounded-2xl bg-center bg-cover cursor-pointer"
               onClick={() => handleImageClick(image)}
             >
               <div
@@ -189,8 +190,8 @@ images.length>0?<>
 
       {selectedImage && (
         <div onClick={handleCloseModal} className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75">
-          <div className="relative">
-            <img src={selectedImage.url} alt={selectedImage.name} className="max-w-full max-h-screen" />
+          <div className="relative h-[100vh]  w-[100%] ">
+            <Image fill src={selectedImage.url} alt={selectedImage.name} className="max-w-full max-h-screen" />
             <button
               className="absolute top-2 right-2 text-white text-xl"
               onClick={handleCloseModal}

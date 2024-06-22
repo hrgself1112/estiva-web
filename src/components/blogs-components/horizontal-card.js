@@ -10,7 +10,7 @@ const HorizontalCard = ({image, url, alt, heading, description}) => {
    <>
    
    
-   <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+   <div className="max-w-sm bg-white w-[100%] rounded-lg shadow-md overflow-hidden">
       <div className="card-header">
         <Image height={300} width={300}
 src={image ?? "/bg/home_bg.webp"} 

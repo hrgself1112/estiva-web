@@ -4,7 +4,7 @@ import InputBox from './inputBox';
 
 export async function fetchData() {
     try {
-      const res = await fetch("http://localhost:4000/api/blogs/get-metadata"); 
+      const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/get-metadata`); 
       return res.json();
     } catch (error) { 
       return null;
@@ -118,7 +118,7 @@ data?.map((items, index)=>{
 
 return(
 
-<tr>
+<tr key={index}>
                                 <td className="px-5 py-3 border-b border-gray-200 bg-white text-sm">
                                     <div className="flex items-center">
                                          

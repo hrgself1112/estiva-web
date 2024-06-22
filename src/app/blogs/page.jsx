@@ -8,7 +8,7 @@ import CategoriePages from "@/components/CategorieComps/categoriePages";
  
   export async function fetchDataofArticlemetadata() {
     try {
-      const res = await fetch(`http://localhost:4000/api/blogs/get-metadata` , { next: { revalidate: 3600 } }); 
+      const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_PORT}/api/blogs/get-metadata` , { next: { revalidate: 3600 } }); 
       return res.json();
     } catch (error) { 
       console.log(error)
@@ -43,10 +43,11 @@ const  page = async  () => {
 
  <CategoriePages items={CategorieData} />
 
- <div className="grid m-4  gap-6 grid-cols-4">
+ <div className="grid  gap-6 m-6  sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
     
  {data?.articles.map((article, index) => (
 <HorizontalCard 
+key={index}
 image={article.data.root.props.Image}
 url={article.data.root.props.Url}
 alt={article.data.root.props.Alt}
